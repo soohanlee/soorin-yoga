@@ -10,10 +10,8 @@ import Styles from './sections/Styles'
 import Gallery from './sections/Gallery'
 import Voices from './sections/Voices'
 import Contact from './sections/Contact'
-import useSnapScroll from './hooks/useSnapScroll'
 
 export default function App() {
-  useSnapScroll()
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 110,

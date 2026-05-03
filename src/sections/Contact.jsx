@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { Instagram, Mail, MessageCircle, MapPin } from 'lucide-react'
 
 const links = [
-  { icon: Instagram, label: 'instagram', value: '@soorin.yoga', href: '#' },
-  { icon: Mail, label: 'email', value: 'hello@soorin.yoga', href: 'mailto:hello@soorin.yoga' },
-  { icon: MessageCircle, label: 'kakao', value: 'soorin_yoga', href: '#' },
+  { icon: Instagram, label: 'instagram', value: '@surin.yoga', href: '#' },
+  { icon: Mail, label: 'email', value: 'hello@surin.yoga', href: 'mailto:hello@surin.yoga' },
+  { icon: MessageCircle, label: 'kakao', value: 'surin_yoga', href: '#' },
   { icon: MapPin, label: 'studio', value: '한남동, 서울', href: '#' },
 ]
 

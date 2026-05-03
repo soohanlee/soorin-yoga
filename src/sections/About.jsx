@@ -85,7 +85,7 @@ export default function About() {
               "잘하지 않아도 괜찮아요. 머무를 수만 있다면."
             </p>
             <div className="text-[10px] uppercase tracking-[0.3em] text-cocoa/50 mt-3">
-              — soorin
+              — su rin
             </div>
           </motion.div>
         </div>

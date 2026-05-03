@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { ArrowDown } from 'lucide-react'
 import BreathingOrb from '../components/BreathingOrb'
 
-const words = ['숨,', '머무는', '시간.']
+const words = ['inhale,', 'exhale,', 'be.']
 
 export default function Hero() {
   const ref = useRef(null)
@@ -47,7 +47,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-[11px] uppercase tracking-[0.5em] text-cocoa/60 mb-8"
           >
-            soorin · yoga · seoul
+            su rin · yoga · seoul
           </motion.div>
 
           <h1 className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-[8.5rem] leading-[1] text-cocoa">
@@ -78,9 +78,9 @@ export default function Hero() {
             transition={{ delay: 1.2, duration: 0.8 }}
             className="mt-8 max-w-md text-cocoa/75 leading-relaxed"
           >
-            한 호흡, 한 자세. 정수린이 안내하는 느린 요가.
+            slow yoga in hannam-dong, seoul.
             <br />
-            한남동의 작은 매트 위에서, 자기 자신을 다시 만나는 시간.
+            guided by su rin — one breath, one pose at a time.
           </motion.p>
 
           <motion.a

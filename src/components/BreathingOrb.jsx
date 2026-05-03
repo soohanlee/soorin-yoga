@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 
 const phases = [
-  { label: '들숨', sub: 'inhale', duration: 4, scale: 1 },
-  { label: '머물고', sub: 'hold', duration: 2, scale: 1 },
-  { label: '내쉬고', sub: 'exhale', duration: 6, scale: 0.55 },
+  { label: 'inhale', sub: '4s', duration: 4, scale: 1 },
+  { label: 'hold', sub: '2s', duration: 2, scale: 1 },
+  { label: 'exhale', sub: '6s', duration: 6, scale: 0.55 },
 ]
 
 export default function BreathingOrb() {
