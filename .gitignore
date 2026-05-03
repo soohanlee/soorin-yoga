@@ -8,3 +8,4 @@ dist-ssr
 .env.local
 *.log
 NVIDIA Corporation/
+.gstack/
